@@ -1,12 +1,12 @@
 
 
-const outputDir = 'public'
+const outputDir = 'docs'
 
 
 
 module.exports = {
   publicPath: process.env.NODE_ENV === 'production'
-      ? '/my-project/'
+      ? '/thefirst_thelast_test_taks/'
       : '/',
   outputDir,
   indexPath: 'index_bundled.html',
