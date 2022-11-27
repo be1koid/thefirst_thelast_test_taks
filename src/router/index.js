@@ -8,7 +8,7 @@ Vue.use(VueRouter)
 
 const routes = [
     {
-        path: '/home',
+        path: '/',
         name: 'landingPage',
         component: LandingPage,
         meta: { transition: 'slide-left' }

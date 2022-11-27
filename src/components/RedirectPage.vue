@@ -1,7 +1,7 @@
 <template>
     <div>
         <div>redirected</div>
-        <router-link to="/home">back</router-link>
+        <router-link to="/">back</router-link>
     </div>
 
 </template>
