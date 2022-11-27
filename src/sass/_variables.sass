@@ -1,0 +1,51 @@
+
+//fonts
+h1
+    font-family: 'Grtsk Giga', sans-serif
+    font-style: normal
+    font-weight: 700
+    line-height: 110%
+
+p
+    font-family: 'Grtsk Giga', sans-serif
+    font-style: normal
+    font-weight: 600
+    font-size: 14px
+    line-height: 110%
+span
+    font-family: 'Grtsk Giga', sans-serif
+    font-style: normal
+    font-weight: 600
+    line-height: 140%
+
+
+
+//mixins
+@mixin column
+    display: flex
+    flex-direction: column
+
+@mixin row
+    display: flex
+    flex-direction: row
+
+@mixin center
+    justify-content: center
+    align-items: center
+
+
+@media (orientation: landscape)
+    h1
+        font-size: 82px
+    span
+        font-size: 16px
+
+@media (orientation: portrait)
+    h1
+        font-size: 58px
+    span
+        font-size: 14px
+
+@media (orientation: portrait) and (max-width: 600px)
+    h1
+        font-size: 34px
