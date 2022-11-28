@@ -9,7 +9,7 @@ module.exports = {
       ? '/thefirst_thelast_test_taks/'
       : '/',
   outputDir,
-  indexPath: 'index_bundled.html',
+  indexPath: 'index.html',
   transpileDependencies: true,
   chainWebpack: config => {
     config.module
