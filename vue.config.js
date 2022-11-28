@@ -1,6 +1,6 @@
 
 
-const outputDir = 'docs'
+const outputDir = 'dist'
 
 
 
